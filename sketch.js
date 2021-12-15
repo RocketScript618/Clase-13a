@@ -43,6 +43,7 @@ invisibleGround.visible=false;
 }
 
 function draw() {
+  background(117, 109, 109);
 //hacer que el Trex salte al presionar la barra espaciadora
 if (keyDown("space")&&trex.y>=153) {
   trex.velocityY = -13;
